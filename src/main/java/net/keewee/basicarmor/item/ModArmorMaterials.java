@@ -13,10 +13,10 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    WOOD("wood", 6, new int[]{2, 3, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    WOOD("wood", 6, new int[]{1, 2, 4, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.OAK_PLANKS);
     }),
-    STONE("stone", 7, new int[]{2, 4, 6, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    STONE("stone", 7, new int[]{2, 3, 5, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.COBBLESTONE);
     });
 

@@ -2,9 +2,9 @@ package net.keewee.basicarmor.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.keewee.basicarmor.BasicArmor;
+import net.keewee.basicarmor.item.custom.StoneArmorItem;
 import net.keewee.basicarmor.item.custom.WoodenArmorItem;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -21,13 +21,13 @@ public class ModItems {
     public static final Item WOODEN_BOOTS = registerItem("wooden_boots", new WoodenArmorItem(ModArmorMaterials.WOOD, EquipmentSlot.FEET,
             new FabricItemSettings().group(ItemGroup.COMBAT)));
 
-    public static final Item STONE_HELMET = registerItem("stone_helmet", new ArmorItem(ModArmorMaterials.STONE, EquipmentSlot.HEAD,
+    public static final Item STONE_HELMET = registerItem("stone_helmet", new StoneArmorItem(ModArmorMaterials.STONE, EquipmentSlot.HEAD,
             new FabricItemSettings().group(ItemGroup.COMBAT)));
-    public static final Item STONE_BREASTPLATE = registerItem("stone_breastplate", new ArmorItem(ModArmorMaterials.STONE, EquipmentSlot.CHEST,
+    public static final Item STONE_BREASTPLATE = registerItem("stone_breastplate", new StoneArmorItem(ModArmorMaterials.STONE, EquipmentSlot.CHEST,
             new FabricItemSettings().group(ItemGroup.COMBAT)));
-    public static final Item STONE_LEGGINGS = registerItem("stone_leggings", new ArmorItem(ModArmorMaterials.STONE, EquipmentSlot.LEGS,
+    public static final Item STONE_LEGGINGS = registerItem("stone_leggings", new StoneArmorItem(ModArmorMaterials.STONE, EquipmentSlot.LEGS,
             new FabricItemSettings().group(ItemGroup.COMBAT)));
-    public static final Item STONE_BOOTS = registerItem("stone_boots", new ArmorItem(ModArmorMaterials.STONE, EquipmentSlot.FEET,
+    public static final Item STONE_BOOTS = registerItem("stone_boots", new StoneArmorItem(ModArmorMaterials.STONE, EquipmentSlot.FEET,
             new FabricItemSettings().group(ItemGroup.COMBAT)));
 
 

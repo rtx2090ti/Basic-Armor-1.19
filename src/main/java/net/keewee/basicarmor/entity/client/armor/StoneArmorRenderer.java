@@ -1,11 +1,11 @@
 package net.keewee.basicarmor.entity.client.armor;
 
-import net.keewee.basicarmor.item.custom.WoodenArmorItem;
+import net.keewee.basicarmor.item.custom.StoneArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
-public class WoodenArmorRenderer extends GeoArmorRenderer<WoodenArmorItem> {
-    public WoodenArmorRenderer() {
-        super(new WoodenArmorModel());
+public class StoneArmorRenderer extends GeoArmorRenderer<StoneArmorItem> {
+    public StoneArmorRenderer() {
+        super(new StoneArmorModel());
 
         this.headBone = "helmet";
         this.bodyBone = "chestplate";

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "basicarmor:wooden_breastplate"
+    }
+  ],
+  "result": {
+    "item": "basicarmor:stone_breastplate"
+  }
+}

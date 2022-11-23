@@ -12,14 +12,14 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    WOOD("wood", 6, new int[]{1, 2, 4, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    WOOD("wood", 6, new int[]{1, 2, 3, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.OAK_PLANKS);
     }),
-    STONE("stone", 7, new int[]{2, 3, 5, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    STONE("stone", 7, new int[]{2, 3, 4, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.COBBLESTONE);
     });
 
-    private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
+    private static final int[] BASE_DURABILITY = new int[]{11, 15, 16, 13};
     private final String name;
     private final int durabilityMultiplier;
     private final int[] protectionAmounts;

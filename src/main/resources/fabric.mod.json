@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Basic Armor",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A teeny-tiny mod that adds primal armor into the game",
   "authors": [
     "KeeWee"
   ],
